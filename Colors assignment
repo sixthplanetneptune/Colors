@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Scheme</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+        }
+        th {
+            background-color: #333;
+            color: white;
+            font-family: Arial, sans-serif;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="font-style: italic;">Vibrant Colors Scheme</h1>
+    <table>
+        <tr>
+            <th>Color Name</th>
+            <th>Hex</th>
+            <th>RGB</th>
+            <th>HSL</th>
+        </tr>
+        <tr style="background-color: #FF5733;">
+            <td>Red Orange</td>
+            <td>#FF5733</td>
+            <td>255, 87, 51</td>
+            <td>14°, 100%, 58%</td>
+        </tr>
+        <tr style="background-color: #FFC300;">
+            <td>Golden Yellow</td>
+            <td>#FFC300</td>
+            <td>255, 195, 0</td>
+            <td>45°, 100%, 50%</td>
+        </tr>
+        <tr style="background-color: #3D9970;">
+            <td>Sea Green</td>
+            <td>#3D9970</td>
+            <td>61, 153, 112</td>
+            <td>149°, 43%, 40%</td>
+        </tr>
+        <tr style="background-color: #0074D9;">
+            <td>Deep Blue</td>
+            <td>#0074D9</td>
+            <td>0, 116, 217</td>
+            <td>204°, 100%, 42%</td>
+        </tr>
+    </table>
+</body>
+</html>
