@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Restaurant Menus</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="menu" id="breakfast-menu">
+    <h1>Breakfast Menu</h1>
+    <ul>
+      <li>Pancakes</li>
+      <li>Eggs Benedict</li>
+      <li>Avocado Toast</li>
+      <li>French Toast</li>
+      <li>Smoothies</li>
+    </ul>
+  </div>
+
+  <div class="menu" id="lunch-menu">
+    <h1>Lunch Menu</h1>
+    <ul>
+      <li>Caesar Salad</li>
+      <li>Club Sandwich</li>
+      <li>Pasta Carbonara</li>
+      <li>Grilled Chicken Wrap</li>
+      <li>Quinoa Salad</li>
+    </ul>
+  </div>
+
+  <div class="menu" id="dinner-menu">
+    <h1>Dinner Menu</h1>
+    <ul>
+      <li>Filet Mignon</li>
+      <li>Salmon Fillet</li>
+      <li>Vegetable Stir Fry</li>
+      <li>Shrimp Scampi</li>
+      <li>Risotto</li>
+    </ul>
+  </div>
+</body>
+</html>
