@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Busy Day Schedule</title>
+  <style>
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    th, td {
+      border: 1px solid #ccc;
+      padding: 10px;
+      text-align: left;
+    }
+
+    th {
+      background-color: #f2f2f2;
+    }
+
+    .time-column {
+      width: 15%;
+    }
+
+    .event-column {
+      width: 85%;
+    }
+
+    .important {
+      font-weight: bold;
+    }
+
+    .lunch {
+      background-color: #ffcc99;
+    }
+
+    .appointment {
+      background-color: #99ccff;
+    }
+
+    .exercise {
+      background-color: #99ff99;
+    }
+  </style>
+</head>
+<body>
+  <h2>My Busy Day Schedule</h2>
+  <table>
+    <tr>
+      <th class="time-column">Time</th>
+      <th class="event-column">Event</th>
+    </tr>
+    <tr>
+      <td>8:00 AM</td>
+      <td class="important">Breakfast</td>
+    </tr>
+    <tr>
+      <td>9:00 AM</td>
+      <td class="exercise important">Morning Workout</td>
+    </tr>
+    <tr>
+      <td>10:00 AM</td>
+      <td class="appointment">Appointment</td>
+    </tr>
+    <tr>
+      <td>12:00 PM</td>
+      <td class="lunch important">Lunch</td>
+    </tr>
+    <tr>
+      <td>2:00 PM</td>
+      <td class="important">Shopping</td>
+    </tr>
+    <tr>
+      <td>4:00 PM</td>
+      <td class="important">Study Session</td>
+    </tr>
+    <tr>
+      <td>6:00 PM</td>
+      <td class="important">Dinner</td>
+    </tr>
+    <tr>
+      <td>8:00 PM</td>
+      <td class="important">Movies</td>
+    </tr>
+  </table>
+</body>
+</html>
